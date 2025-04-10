@@ -31,11 +31,29 @@ function TopBar() {
     ];
 
     const renderMenu = (
-        <Menu anchorEl={anchorEl} open={isMenuOpen} onClose={handleMenuClose} sx={{ mt: 1, color: "white" }}>
+        <Menu 
+            anchorEl={anchorEl} 
+            open={isMenuOpen} 
+            onClose={handleMenuClose} 
+            sx={{ mt: 1 ,
+                backgroundColor: 'transparent',
+            }}
+        >
             {menuItems.map((item) => (
-                <MenuItem key={item.text} onClick={handleMenuClose} component={Link} to={item.path} sx={{ color: "white" }}>
+                <MenuItem 
+                    key={item.text} 
+                    onClick={handleMenuClose} 
+                    component={Link} 
+                    to={item.path} 
+                    sx={{
+                        color: 'primary.main', // Menu item color
+                        '&:hover': {
+                            backgroundColor: 'primary.main', // Optional hover effect
+                        }
+                    }}
+                >
                     {item.icon}
-                    <Typography sx={{ ml: 1, color: "white" }}>{item.text}</Typography>
+                    <Typography sx={{ ml: 1, color: 'primary.main' }}>{item.text}</Typography>
                 </MenuItem>
             ))}
         </Menu>
@@ -56,7 +74,7 @@ function TopBar() {
 
                 {/* Desktop Menu */}
                 <Box sx={{ display: { xs: 'none', md: 'flex' } }}>
-                    {menuItems.map((item, index) => (
+                    {menuItems.map((item) => (
                         item.external ? (
                             <Button
                                 key={item.text}
@@ -76,7 +94,7 @@ function TopBar() {
                                 component={Link}
                                 to={item.path}
                                 startIcon={item.icon}
-                                sx={{ color: 'white', mr: 2 }} // Add right margin
+                                sx={{ color: 'white', mr: 2 }} 
                             >
                                 {item.text}
                             </Button>
@@ -87,8 +105,7 @@ function TopBar() {
                         href="www.linkedin.com/in/dagim-awulachew-614288231"
                         target="_blank"
                         startIcon={<CgGitFork />}
-
-                        sx={{ color: 'black', mr: 2, backgroundColor: 'white' }} // Add right margin
+                        sx={{ color: 'black', mr: 2, backgroundColor: 'white' }} 
                     >
                         <AiFillStar />
                     </Button>
@@ -102,14 +119,22 @@ function TopBar() {
                         color="inherit"
                         aria-label="menu"
                         onClick={handleMenuOpen}
+                        sx={{
+                            color: 'primary.main', 
+                            '&:hover': {
+                                backgroundColor: 'transparent',
+                            },
+                            '&.MuiIconButton-root.Mui-focusVisible': {
+                                backgroundColor: 'transparent', 
+                            }
+                        }}
                     >
-                        <MenuIcon />
+                        <MenuIcon sx={{ color: 'primary.main' }} /> 
                     </IconButton>
                 </Box>
             </Toolbar>
             {renderMenu}
         </AppBar>
-
     );
 }
 

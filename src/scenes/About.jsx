@@ -100,22 +100,21 @@ export default function AboutPage() {
                     </Typography>
 
                     <Typography variant="h6" sx={{ mt: 4, lineHeight: 1.8, color: 'white' }}>
-                        My interest
-                        in programming began at an early age and has driven me to acquire skills in various programming languages and
-                        frameworks, including React, Spring Boot, Flutter, Python, and Django. I hold a BSc in Information Technology from
-                        Bahir Dar University with a GPA of{'  '}
-                        <Box component="span" sx={{ color: 'primary.main', fontWeight: 'bold' }}>
-                            3.94.
-                        </Box>{' '}
-
+                    I started programming during my university years, and it quickly became a passion of mine. Over time,
+                     I’ve gained expertise in various programming languages and frameworks, 
+                     such as React, Spring Boot, Flutter, Python, and Django. 
+                     These technologies have allowed me to build dynamic web and mobile applications.
                     </Typography>
 
                     <Typography variant="h6" sx={{ mt: 4, lineHeight: 1.8, color: 'white' }}>
-                        I am eager to further my education in a challenging academic environment
-                        where I can deepen my understanding of computer science and software engineering. My goal is to contribute to
-                        innovative projects and research while continuing to develop my skills and knowledge in the field. Thank you for
-                        considering my application. I look forward to the opportunity to discuss how my background and aspirations align
-                        with your program
+                    I graduated with a BSc in Information Technology from Bahir Dar University, 
+                    where I achieved a GPA of {'  '}
+                        <Box component="span" sx={{ color: 'primary.main', fontWeight: 'bold' }}>
+                            3.94.
+                        </Box>{' '} During my studies, 
+                    I was involved in multiple projects that enhanced my problem-solving skills 
+                    and deepened my understanding of software development.
+
                     </Typography>
 
 
@@ -126,8 +125,8 @@ export default function AboutPage() {
 
             </Container>
             <Grid>
-                <Box sx={{ display: "flex", flexDirection: "column", alignItems: "center", paddingTop: "20px", paddingBottom: "20px" }}>
-                    <Typography variant="h4" sx={{ color: 'white', alignItems: 'center', paddingTop: "50px", paddingBottom: "50px" }}>
+                <Box sx={{ display: "flex", flexDirection: "column", alignItems: "center", paddingTop: "0px", paddingBottom: "10px" }}>
+                    <Typography variant="h4" sx={{ color: 'white', alignItems: 'center', paddingTop: "10px", paddingBottom: "10px" }}>
                         MY{' '}
                         <Box component="span" sx={{ color: 'primary.main', fontWeight: 'bold' }}>
                             SKILLS

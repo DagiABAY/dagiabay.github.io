@@ -125,16 +125,17 @@ export default function HomePage() {
               React, Spring Boot, Flutter, and API integration.
             </Typography>
             <Typography variant="body1" sx={{ mt: 4, lineHeight: 1.8, color: 'white' }}>
-              I’m a passionate software developer with experience in full stack development,
-              integration engineering, and mobile app development. I love building meaningful
-              applications and solving real-world problems with technology. I specialize in
-              React, Spring Boot, Flutter, and API integration.
+              I bring a robust academic foundation, holding a BSc in Information Technology from Bahir Dar University,
+              combined with hands-on experience in cutting-edge technologies.
             </Typography>
             <Typography variant="body1" sx={{ mt: 4, lineHeight: 1.8, color: 'white' }}>
-              I’m a passionate software developer with experience in full stack development,
-              integration engineering, and mobile app development. I love building meaningful
-              applications and solving real-world problems with technology. I specialize in
-              React, Spring Boot, Flutter, and API integration.
+              I have also gained valuable work experience,
+              having worked as a Cryptographer at the Information Network Security Agency (INSA)
+              and as a Digital Integration and Development Officer at NIB Bank.
+              These roles have helped me refine my technical skills while working on security protocols
+              and integrating digital solutions for banking services.
+
+
             </Typography>
           </Box>
           {/* <Box
@@ -166,11 +167,11 @@ export default function HomePage() {
               <LinkedInIcon />
             </IconButton>
           </Link>
-   
+
         </Stack>
       </Box>
       {/* Footer */}
-     
+
     </Box>
   );
 }

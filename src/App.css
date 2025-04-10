@@ -1,12 +1,16 @@
 .App {
   text-align: center;
 }
-
+.navbar-collapse {
+  background-color: #ff5733; /* Replace with the color you want */
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
+.bg-custom-color {
+  background-color: #ff5733; /* Your desired color */
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
