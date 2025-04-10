@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.8c2663fb.css",
-    "main.js": "/static/js/main.912df5c5.js",
+    "main.css": "/static/css/main.d0fb0318.css",
+    "main.js": "/static/js/main.16e16ad2.js",
     "static/js/453.41811d64.chunk.js": "/static/js/453.41811d64.chunk.js",
     "static/media/back.png": "/static/media/back.6f29578b4159d81686e2.png",
     "static/media/wso22.png": "/static/media/wso22.afb5212f965e840e1024.png",
@@ -19,12 +19,12 @@
     "static/media/school.png": "/static/media/school.2c80151ac952bcb6ac2f.png",
     "static/media/dlogo3.png": "/static/media/dlogo3.2eadfffc17069469714a.png",
     "index.html": "/index.html",
-    "main.8c2663fb.css.map": "/static/css/main.8c2663fb.css.map",
-    "main.912df5c5.js.map": "/static/js/main.912df5c5.js.map",
+    "main.d0fb0318.css.map": "/static/css/main.d0fb0318.css.map",
+    "main.16e16ad2.js.map": "/static/js/main.16e16ad2.js.map",
     "453.41811d64.chunk.js.map": "/static/js/453.41811d64.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8c2663fb.css",
-    "static/js/main.912df5c5.js"
+    "static/css/main.d0fb0318.css",
+    "static/js/main.16e16ad2.js"
   ]
 }
