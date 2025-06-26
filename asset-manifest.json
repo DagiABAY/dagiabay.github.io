@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d0fb0318.css",
+    "main.js": "/static/js/main.6a585add.js",
+    "static/js/453.64be9eb2.chunk.js": "/static/js/453.64be9eb2.chunk.js",
+    "static/media/back.png": "/static/media/back.6f29578b4159d81686e2.png",
+    "static/media/wso22.png": "/static/media/wso22.afb5212f965e840e1024.png",
+    "static/media/img2.png": "/static/media/img2.72463d8a38e78671b2d1.png",
+    "static/media/pro3.png": "/static/media/pro3.9fa19a33ce6392d02e76.png",
+    "static/media/p2.png": "/static/media/p2.3b7ed6427fd6bf75b5c4.png",
+    "static/media/p3.png": "/static/media/p3.ac9fed0b12aa25e0772b.png",
+    "static/media/pro.png": "/static/media/pro.b861c382965cc873077d.png",
+    "static/media/p4.png": "/static/media/p4.44b9c005e50acad95209.png",
+    "static/media/pro2.png": "/static/media/pro2.9e59e829f5cca21e3a2d.png",
+    "static/media/p1.png": "/static/media/p1.0c77d15ca109a6c1652d.png",
+    "static/media/mob.png": "/static/media/mob.7bb13285ab5706c9c95f.png",
+    "static/media/ussd.png": "/static/media/ussd.c5552c71f8493527ecea.png",
+    "static/media/gp3.png": "/static/media/gp3.ed4dbc4e3177b80fdd14.png",
+    "static/media/school.png": "/static/media/school.2c80151ac952bcb6ac2f.png",
+    "static/media/dlogo3.png": "/static/media/dlogo3.2eadfffc17069469714a.png",
+    "index.html": "/index.html",
+    "main.d0fb0318.css.map": "/static/css/main.d0fb0318.css.map",
+    "main.6a585add.js.map": "/static/js/main.6a585add.js.map",
+    "453.64be9eb2.chunk.js.map": "/static/js/453.64be9eb2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d0fb0318.css",
+    "static/js/main.6a585add.js"
+  ]
+}
